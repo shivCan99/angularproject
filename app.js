@@ -20,12 +20,7 @@ app.use(express.json())
 app.use(cookieParser())
 
 app.use(express.static("artist-angular-frontend"))
-// get settings
-const settings = require('./config/settings')
-
-// mongo db url
-const db = settings.mongoDBUrl
-// const db = process.env.mongoDBUrl
+const db = process.env.mongoDBUrl
 
 // attempt to connect with DB
 mongoose
