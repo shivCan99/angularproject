@@ -44,7 +44,7 @@ app.use('/refresh', refresh)
 app.use('/logout', logout)
 app.use('/api/question', question)
 app.use('/event', event)
-app.use('/about', about)
+app.use('/abouts', about)
 app.use('/portfolio', portfolio)
 app.use('/api/product', product)
 
