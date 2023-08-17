@@ -43,7 +43,6 @@ const portfolio = require('./routes/api/portfolio')
 const product = require('./routes/api/product')
 const about = require("./routes/api/about")
 
-
 // Middleware for Routes
 app.use('/auth', auth)
 app.use('/refresh', refresh)
